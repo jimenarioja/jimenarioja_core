@@ -1,0 +1,9 @@
+{
+  "project_name": "jimena-core",
+  "repo_name": "{{ cookiecutter.jimena-core }}",
+  "author_name": "Jimena Rioja",
+  "email": "jimenarioja30@gmail.com",
+  "github_username": "jimenarioja",
+  "description": "Set of functionalities to process and filter data",
+  "python_interpreter": ["python3","python"]
+}

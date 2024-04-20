@@ -1,0 +1,77 @@
+my_cookiecutter_template/
+    ├── {{cookiecutter.jimena-core}}/
+    │   ├── __init__.py
+    │   └── main.py
+    ├── infra
+    │   ├── docker
+    │   │   └── postgres
+    │   │   │   └── docker_compose
+    │   │   │   │   ├── docker-compose.yaml
+    │   │   │   │   └── postgres_data
+    │   └── scripts
+    │   │   ├── activate_environment.sh
+    │   │   ├── create_environment.sh
+    │   │   ├── deactivate_environment.sh
+    │   │   └── verify_environment_and_packages.sh
+    ├── jimena
+    │   ├── core
+    │   │   ├── components
+    │   │   │   ├── data
+    │   │   │   │   ├── cache
+    │   │   │   │   │   ├── __init__.py
+    │   │   │   │   │   └── local.py
+    │   │   │   │   ├── extractor
+    │   │   │   │   │   ├── __init__.py
+    │   │   │   │   │   ├── basic.py
+    │   │   │   │   │   └── core.py
+    │   │   │   │   ├── structure
+    │   │   │   │   │   ├── __init__.py
+    │   │   │   │   │   └── core.py
+    │   │   │   │   ├── __init__.py
+    │   │   │   │   └── core.py
+    │   │   │   ├── handler
+    │   │   │   │   ├── __init__.py
+    │   │   │   │   └── logging.py
+    │   │   │   ├── tools
+    │   │   │   │   ├── __init__.py
+    │   │   │   │   ├── config.py
+    │   │   │   │   ├── constants.py
+    │   │   │   │   ├── decorators.py
+    │   │   │   │   ├── generic.py
+    │   │   │   │   ├── regex.py
+    │   │   │   │   └── system.py
+    │   │   │   ├── __init__.py
+    │   │   │   └── core.py
+    │   │   ├── test
+    │   │   │   ├── resources
+    │   │   │   │   └── data
+    │   │   │   │   │   ├── csv_file.csv
+    │   │   │   │   │   ├── generic_file.txt
+    │   │   │   │   │   └── json_file.json
+    │   │   │   ├── unit
+    │   │   │   │   │   ├── components
+    │   │   │   │   │   │   ├── data
+    │   │   │   │   │   │   │   ├── __init__.py
+    │   │   │   │   │   │   │   ├── test_unit_data_extractor.py
+    │   │   │   │   │   │   │   └── test_unit_data_structure.py
+    │   │   │   │   │   │   └── __init__.py
+    │   │   │   │   │   └── tools
+    │   │   │   │   │   │   ├── __init__.py
+    │   │   │   │   │   │   └── test_unit_tools_decorators.py
+    │   │   │   │   │   └── __init__.py
+    │   │   │   ├── __init__.py
+    │   │   │   └── setup.py
+    │   │   └── __init__.py
+    │   └── __init__.py
+    ├── jimena-core
+    │   └── {{cookiecutter.jimena-core}}
+    │   │   ├── my_cookiecutter_template
+    │   │   └── {{cookiecutter.jimena-core}}.json
+    ├── .pre-commit-config.yaml
+    ├── CONTRIBUTING.md
+    ├── LICENSE
+    ├── Makefile
+    ├── MANIFEST.in
+    ├── README.md
+    ├── requirements.txt
+    └── setup.py

@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Unittests [test_unit_data_structure]" type="tests" factoryName="Unittests" folderName="UnitTests" singleton="false">
+    <module name="jimena-core" />
+    <option name="INTERPRETER_OPTIONS" value="" />
+    <option name="PARENT_ENVS" value="true" />
+    <option name="SDK_HOME" value="$USER_HOME$/environments/python/env-jimena_core-p310/bin/python" />
+    <option name="SDK_NAME" value="Python 3.10 (env-jimena_core-p310)" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jimena/core/tests/unit/components/data" />
+    <option name="IS_MODULE_SDK" value="false" />
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+    <option name="_new_pattern" value="&quot;&quot;" />
+    <option name="_new_additionalArguments" value="&quot;&quot;" />
+    <option name="_new_target" value="&quot;$PROJECT_DIR$/jimena/core/tests/unit/components/data/test_unit_data_structure.py&quot;" />
+    <option name="_new_targetType" value="&quot;PATH&quot;" />
+    <method v="2" />
+  </configuration>
+</component>
